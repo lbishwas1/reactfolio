@@ -1,0 +1,44 @@
+.fa{
+  margin-right: 10px;
+}
+body{
+  background-color: #EBF0F4;
+  text-align: center;
+}
+h2{
+  margin-top: 30px;
+}
+.det{
+  margin-left: 15px;
+}
+button{
+  width: 140px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #fd892d;
+  transition: .5s;
+  font-size: 15px;
+  border-radius: 20px;
+  margin-top: 40px; 
+  border:2px solid  #fd892d;
+
+  
+}
+button:hover{
+  background-color:  #fd892d;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  color: white;
+  font-size: 20px;
+  transform:scale(1.1);
+  
+  
+}
+.fa:hover{
+  cursor: pointer;
+  color:#fd892d;
+}
+.skilli:hover{
+  cursor: pointer;
+  color:#fd892d;
+}

@@ -1,0 +1,25 @@
+.recent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    margin-right: 30px;
+}
+.recentcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.recentitem{
+    width:430px;
+    height:250px;
+    background-color: #FFF;
+    margin: 30px 20px 0 20px;
+}

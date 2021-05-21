@@ -1,0 +1,19 @@
+.contact{
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    width: 400px;
+    height:40px;
+    margin-bottom: 30px;
+    outline: none;
+    border: 2px solid #fd892d;
+    border-radius: 20px;
+    padding-left: 25px;
+}
