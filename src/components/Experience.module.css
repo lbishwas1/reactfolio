@@ -6,8 +6,8 @@
     text-align: left;
 }
 .excard{
-    width:450px;
-    height:450px;
+    width:430px;
+    height:430px;
     background-color: #FFF;
     margin-left: 40px;
     margin-right: 40px;
@@ -22,7 +22,7 @@
     border-left: 2px solid red;
     padding-left:20px ;
     margin-bottom:-15px;
-    height: 120px;
+    height: 110px;
 }
 .hatdate{
     display: flex;
@@ -30,6 +30,3 @@
     margin-bottom: -20px;
 }
 
-i{
-    margin-left: 30px;
-}

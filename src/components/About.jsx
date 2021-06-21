@@ -16,11 +16,9 @@ export default function About() {
     <div className={Style.container}>
     <div className={Style.all}>
         <div className={Style.desc}>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-             Ipsam suscipit porro voluptatum sed, velit 
-             exercitationem nemo sequi quae aut, doloribus est.
-              Ab sint aperiam earum repudiandae reiciendis fugit 
-              neque perspiciatis.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, repellendus. <Link to='/about'>Read more</Link></p>
+        <p>I am a Nepal based web developer, specialising in Front-End Development.
+            I enjoy web development, tools, and processes. More importantly, I like looking at ways to improve 
+            collaboration and improving communication; I love community and people. <Link to='/'>Read more</Link></p>
           <div className={Style.myprogress}>
         
     {/*    <div className={Style.num}>
@@ -58,7 +56,7 @@ export default function About() {
         <h2>My Skills</h2>
         <div className={Style.bar}>
             
-        <h1><i class="devicon-c-line skilli"></i></h1>
+        <h1><i class="devicon-c-line skilli skilli"></i></h1>
         <h1><i class="devicon-cplusplus-line skilli"></i></h1>
         <h1><i class="devicon-matlab-plain skilli"></i></h1>
         <h1><i class="devicon-react-original skilli"></i></h1>

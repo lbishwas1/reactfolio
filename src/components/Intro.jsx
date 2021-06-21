@@ -9,9 +9,9 @@ export default function Intro(props) {
          <p className={Style.title}>Bishwas Lamsal</p>
          <p className={Style.desc}>I'm a web developer</p>
          <div className={Style.social}>
-         <Link to='//facebook.com' target="_blank" className={Style.link}><i className="fa fa-facebook"></i></Link>
-         <Link to='//instagram.com' target="_blank" className={Style.link}><i className="fa fa-instagram"></i></Link>
-         <Link to='//twitter.com' target="_blank" className={Style.link}><i className="fa fa-twitter"></i></Link>
+         <Link to='//facebook.com' target="_blank" className={Style.link}><i className="fa fa-facebook sociali"></i></Link>
+         <Link to='//instagram.com' target="_blank" className={Style.link}><i className="fa fa-instagram sociali"></i></Link>
+         <Link to='//twitter.com' target="_blank" className={Style.link}><i className="fa fa-twitter sociali"></i></Link>
          {/*<i className="fa fa-behance"></i>
          <i className="fa fa-dribbble"></i>*/}
     </div>

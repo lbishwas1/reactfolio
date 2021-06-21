@@ -27,24 +27,22 @@ const Recent =()=>{
      <div className={Style.recent}>
       <ul className={Style.category}>
             <li onClick={() => setItems(data)}>All</li>
-            <li onClick={() => filterItem('c')}>C</li>
-            <li onClick={() => filterItem('c++')}>C++</li>
-            <li onClick={() => filterItem('javascript')}>CSS</li>
-            <li onClick={() => filterItem('c++')}>HTML</li>
+            <li onClick={() => filterItem('Bootstrap')}>Bootstrap</li>
+            <li onClick={() => filterItem('CSS')}>CSS</li>
             <li onClick={() => filterItem('javascript')}>Javascript</li>
     </ul>
        <div className={Style.recentcard}>
            <div className={Style.recentcontainer}>
 
 {slice.map((item)=>{
-    const {title,image}=item;
+    const {title,image,details,language}=item;
     return(
 <div className={Style.recentitem}>
     
     <img src={image} alt="" className={Style.recentproject}/>
     <div className={Style.toi}>
     <h2>{title}</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, dolores.</p>
+  <p>This project was made using {details}.</p>
     </div>
                </div>
     )

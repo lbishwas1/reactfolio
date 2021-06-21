@@ -12,7 +12,7 @@ export default function Experience() {
                 
             <div className={Style.excard}>
                     <div className={Style.hatdate}>
-            <i class="fa fa-graduation-cap"></i>
+            <i class="fa fa-graduation-cap haticon"></i>
 
             <p className={Style.date}>2075-Present(2018-Present)</p>
             </div>
@@ -23,7 +23,7 @@ export default function Experience() {
                         <p>Expecting the degree in 2022.</p>
                 </div>
                 <div className={Style.hatdate}>
-            <i class="fa fa-graduation-cap"></i>
+            <i class="fa fa-graduation-cap haticon"></i>
 
             <p className={Style.date}>2073-2075(2017-2018)</p>
             </div>
@@ -33,7 +33,7 @@ export default function Experience() {
                         <p>Passed with A grade.</p>
                 </div>
                 <div className={Style.hatdate}>
-            <i class="fa fa-graduation-cap"></i>
+            <i class="fa fa-graduation-cap haticon"></i>
 
             <p className={Style.date}>2073(2017)</p>
             </div>
@@ -45,7 +45,7 @@ export default function Experience() {
             </div>
             <div className={Style.excard}>
                     <div className={Style.hatdate}>
-            <i class="fa fa-graduation-cap"></i>
+            <i class="fa fa-graduation-cap haticon"></i>
 
             <p className={Style.date}>2078-Present(2021-Present)</p>
             </div>
@@ -56,7 +56,7 @@ export default function Experience() {
                         <p>Working as software developer.</p>
                 </div>
                 <div className={Style.hatdate}>
-            <i class="fa fa-graduation-cap"></i>
+            <i class="fa fa-graduation-cap haticon "></i>
 
             <p className={Style.date}>2076-Present(2019-Present)</p>
             </div>
@@ -66,7 +66,7 @@ export default function Experience() {
                         <p>Working as Web Developer from last two years.</p>
                 </div>
                 <div className={Style.hatdate}>
-            <i class="fa fa-graduation-cap"></i>
+            <i class="fa fa-graduation-cap haticon"></i>
 
             <p className={Style.date}>2075-Present(2018-Present)</p>
             </div>

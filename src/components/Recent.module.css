@@ -32,6 +32,8 @@ li{
     cursor: pointer;
 }
 .recentitem:hover .recentproject{
+
+    display:none;
     opacity: 0.2;
 }
 .recentitem:hover .toi{
@@ -44,8 +46,8 @@ li{
 }
 
 .toi{
+    width: 100%;
     position: absolute;
     visibility: hidden;
-    color: red;
-  
+    color:#fd892d; 
 }
