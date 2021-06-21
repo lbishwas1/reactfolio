@@ -14,66 +14,66 @@ export default function Experience() {
                     <div className={Style.hatdate}>
             <i class="fa fa-graduation-cap"></i>
 
-            <p className={Style.date}>2075-Present</p>
+            <p className={Style.date}>2075-Present(2018-Present)</p>
             </div>
                 <div className={Style.excontent}>
                
                        
-                        <h3 className={Style.title}>Engineering degree</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, eligendi.</p>
+                        <h3 className={Style.title}>Computer Engineering Degree</h3>
+                        <p>Expecting the degree in 2022.</p>
                 </div>
                 <div className={Style.hatdate}>
             <i class="fa fa-graduation-cap"></i>
 
-            <p className={Style.date}>2073-2075</p>
+            <p className={Style.date}>2073-2075(2017-2018)</p>
             </div>
                 <div className={Style.excontent}>
                         
                         <h3 className={Style.title}>High School Degree</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, eligendi.</p>
+                        <p>Passed with A grade.</p>
                 </div>
                 <div className={Style.hatdate}>
             <i class="fa fa-graduation-cap"></i>
 
-            <p className={Style.date}>2073</p>
+            <p className={Style.date}>2073(2017)</p>
             </div>
                 <div className={Style.excontent}>
                       
                         <h3 className={Style.title}>SLC Graduated</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, eligendi.</p>
+                        <p>Passed with A grade.</p>
                 </div>
             </div>
             <div className={Style.excard}>
                     <div className={Style.hatdate}>
             <i class="fa fa-graduation-cap"></i>
 
-            <p className={Style.date}>2076-Present</p>
+            <p className={Style.date}>2078-Present(2021-Present)</p>
             </div>
                 <div className={Style.excontent}>
                
                        
-                        <h3 className={Style.title}>Sr. Web Developer</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, eligendi.</p>
+                        <h3 className={Style.title}>Software Developer</h3>
+                        <p>Working as software developer.</p>
                 </div>
                 <div className={Style.hatdate}>
             <i class="fa fa-graduation-cap"></i>
 
-            <p className={Style.date}>2070-2076</p>
+            <p className={Style.date}>2076-Present(2019-Present)</p>
             </div>
                 <div className={Style.excontent}>
                         
-                        <h3 className={Style.title}>Jr. Web Developer</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, eligendi.</p>
+                        <h3 className={Style.title}>Web Developer</h3>
+                        <p>Working as Web Developer from last two years.</p>
                 </div>
                 <div className={Style.hatdate}>
             <i class="fa fa-graduation-cap"></i>
 
-            <p className={Style.date}>2068-1070</p>
+            <p className={Style.date}>2075-Present(2018-Present)</p>
             </div>
                 <div className={Style.excontent}>
                       
-                        <h3 className={Style.title}>Internship</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, eligendi.</p>
+                        <h3 className={Style.title}>Freelancer</h3>
+                        <p>Freelancer since 2075(2018)</p>
                 </div>
             
             </div>

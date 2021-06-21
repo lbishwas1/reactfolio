@@ -1,12 +1,9 @@
-.fa{
-  margin-right: 10px;
-}
 body{
   background-color: #EBF0F4;
   text-align: center;
 }
 h2{
-  margin-top: 30px;
+  margin-top: 50px;
 }
 .det{
   margin-left: 15px;
@@ -20,9 +17,8 @@ button{
   font-size: 15px;
   border-radius: 20px;
   margin-top: 40px; 
-  border:2px solid  #fd892d;
-
-  
+  border:2px solid  #fd892d; 
+  margin-bottom: 20px;
 }
 button:hover{
   background-color:  #fd892d;
@@ -30,9 +26,7 @@ button:hover{
   border: none;
   color: white;
   font-size: 20px;
-  transform:scale(1.1);
-  
-  
+  transform:scale(1.1); 
 }
 .fa:hover{
   cursor: pointer;

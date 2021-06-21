@@ -8,8 +8,7 @@
 }
 .card{
     width:250px;
-    display: flex;
-    flex-wrap: wrap;
+   flex-flow: flex wrap;
     align-items: center;
     justify-content: center;
     background-color: #FFF;
@@ -17,4 +16,13 @@
     border-radius: 15px;
     margin-bottom: 20px;
     margin-left: 20px;
+    text-align: center;
+    align-content: center;
+}
+.cc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }

@@ -8,18 +8,44 @@ ul{
     list-style: none;
     display: flex;
 }
+
 li{
     margin-right: 30px;
+    cursor: pointer;
 }
 .recentcontainer{
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
     justify-content: center;
+  
 }
 .recentitem{
-    width:430px;
+    width:420px;
     height:250px;
-    background-color: #FFF;
-    margin: 30px 20px 0 20px;
+    margin: 20px;
+    position: relative;
+    display: flex;
+    border-radius: 20px;
+}
+.recentitem:hover{
+    cursor: pointer;
+}
+.recentitem:hover .recentproject{
+    opacity: 0.2;
+}
+.recentitem:hover .toi{
+    visibility: visible;
+}
+
+.recentproject{
+    width:100%;
+    border-radius: 20px;
+}
+
+.toi{
+    position: absolute;
+    visibility: hidden;
+    color: red;
+  
 }

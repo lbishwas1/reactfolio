@@ -1,8 +1,7 @@
 import React from 'react'
 import Style from './About.module.css'
-import pp from '../img/pp.JPG'
 import CountUp from 'react-countup';
-
+import {Link} from 'react-router-dom'
 
 
 
@@ -10,7 +9,8 @@ export default function About() {
     return (
     
         <>
-         
+       
+
     <div className={Style.about}>
     <h2>About me</h2>
     <div className={Style.container}>
@@ -20,10 +20,10 @@ export default function About() {
              Ipsam suscipit porro voluptatum sed, velit 
              exercitationem nemo sequi quae aut, doloribus est.
               Ab sint aperiam earum repudiandae reiciendis fugit 
-              neque perspiciatis.   <a href="#">Read more</a></p>
-              <div className={Style.myprogress}>
+              neque perspiciatis.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, repellendus. <Link to='/about'>Read more</Link></p>
+          <div className={Style.myprogress}>
         
-        <div className={Style.num}>
+    {/*    <div className={Style.num}>
             <i className="fa fa-thumbs-up fa-2x det"></i>
             <h3><CountUp end={198} /></h3>
             
@@ -44,14 +44,17 @@ export default function About() {
             <p>Satisfied Clients</p>
             
             </div>
+    
             <div className={Style.num}>
             <i className="fa fa-certificate fa-2x det"></i>
             <h3><CountUp end={15} /></h3>
-            
+        
             <p>Awards</p>
             
             </div>
+                */}
     </div>
+    
         <h2>My Skills</h2>
         <div className={Style.bar}>
             

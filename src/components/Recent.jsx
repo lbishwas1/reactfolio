@@ -1,56 +1,64 @@
 import React from 'react'
 import Style from './Recent.module.css'
+import data from '../projects/projects'
+import { useState } from 'react';
+import { filter } from 'async';
+const Recent =()=>{
 
+    const [visible, setVisible] = useState(6);
+    const loadMore= () =>{
+        setVisible(visible+3);
+    }
+    const [items, setItems] = useState(data);
+    
+    const filterItem = (categItem) => {
+        const updatedItems = data.filter((curElem) => {
+            return curElem.language === categItem;
+        });
 
-
-export default function Recent(props) {
+        setItems(updatedItems);
+     
+    }
+    console.log(items[0])
+  const slice= items.slice(0,visible);
     return (
         <>
         <h2>Recent Projects</h2>
      <div className={Style.recent}>
-      {/* <ul className={Style.category}>
-            <li>All</li>
-            <li>Art</li>
-            <li>Branding</li>
-            <li>Creatives</li>
-    </ul>*/}
+      <ul className={Style.category}>
+            <li onClick={() => setItems(data)}>All</li>
+            <li onClick={() => filterItem('c')}>C</li>
+            <li onClick={() => filterItem('c++')}>C++</li>
+            <li onClick={() => filterItem('javascript')}>CSS</li>
+            <li onClick={() => filterItem('c++')}>HTML</li>
+            <li onClick={() => filterItem('javascript')}>Javascript</li>
+    </ul>
        <div className={Style.recentcard}>
            <div className={Style.recentcontainer}>
 
-           <div className={Style.recentitem}>
-               
-
-</div>
-
+{slice.map((item)=>{
+    const {title,image}=item;
+    return(
 <div className={Style.recentitem}>
-               
-
+    
+    <img src={image} alt="" className={Style.recentproject}/>
+    <div className={Style.toi}>
+    <h2>{title}</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, dolores.</p>
+    </div>
                </div>
-               
-           <div className={Style.recentitem}>
-               
+    )
+})}
 
-               </div>
                
-           <div className={Style.recentitem}>
-               
-
-               </div>
-               
-           <div className={Style.recentitem}>
-               
-
-               </div>
-               
-           <div className={Style.recentitem}>
-               
-
-               </div>
+          
            </div>
-           
+           <button onClick={()=> loadMore()}>Load more</button>
        </div>
-     
+
         </div>
+        
         </>
     );
   }
+  export default Recent;

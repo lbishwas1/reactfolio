@@ -1,19 +1,18 @@
 import './App.css';
-import Intro from './components/Intro'
-import About from './components/About'
-import Services from './components/Services'
-import Experience from './components/Experience';
-import Recent from './components/Recent'
-import Contact from './components/Contact'
+import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
+import AboutPage from './pages/AboutPage'
+import Landing  from './pages/Landing';
 function App() {
   return (
     <>
-    <Intro />
-    <About />
-    <Services />
-    <Experience/>
-    <Recent />
-    <Contact/>
+        <Router>
+  
+    <Switch>
+      <Route path="/" exact component={Landing}/>
+      <Route path="/about" component={AboutPage} />
+    </Switch>
+    </Router>
+
     </>
   );
 }
